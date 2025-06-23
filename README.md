@@ -60,7 +60,7 @@ To run this project locally:
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/patrykkuta/restaurant-website.git
+    git clone https://github.com/patrykkuta/simple-restaurant-website.git
     ```
 2. Navigate into the project directory:
     ```bash
