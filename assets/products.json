@@ -1,0 +1,129 @@
+{
+    "categories": [
+    {
+        "name": "Mains",
+        "description" : "Discover the heart and soul of Polish cuisine with our tantalizing selection of main dishes. Indulge in hearty stews and sizzling meats, all bursting with authentic flavors and served with a side of Polish hospitality. Each dish is thoughtfully crafted to bring you a truly memorable dining experience.",
+        "items": [
+        {
+            "name": "Bigos",
+            "description": "A traditional Polish stew made with sauerkraut, meat, and a variety of vegetables.",
+            "price": 10.99
+        },
+        {
+            "name": "Pierogi",
+            "description": "Polish dumplings filled with potatoes, cheese, meat, or fruit.",
+            "price": 8.99
+        },
+        {
+            "name": "Kotlet schabowy",
+            "description": "Polish pork cutlet served with mashed potatoes and pickles.",
+            "price": 12.99
+        },
+        {
+            "name": "Zapiekanka",
+            "description": "A popular street food in Poland made with a baguette or bread topped with mushrooms, cheese, and other ingredients.",
+            "price": 6.99
+        },
+        {
+            "name": "Kielbasa",
+            "description": "Polish sausage typically made with pork, beef, or veal.",
+            "price": 7.99
+        },
+        {
+            "name": "Golonka",
+            "description": "Polish pork knuckle served with sauerkraut and potatoes.",
+            "price": 15.99
+        }
+        ]
+    },
+    {
+        "name": "Sides",
+        "description" : "Enhance your meal with our delectable array of side dishes, specially crafted to complement the flavors of our main courses. Each side dish is meticulously prepared using fresh, locally sourced ingredients to ensure a harmonious balance of taste and texture. Elevate your dining experience with these delightful accompaniments.",
+        "items": [
+        {
+            "name": "Kapusta",
+            "description": "Polish-style sauerkraut.",
+            "price": 3.99
+        },
+        {
+            "name": "Kopytka",
+            "description": "Polish potato dumplings similar to Italian gnocchi.",
+            "price": 4.99
+        },
+        {
+            "name": "Placki ziemniaczane",
+            "description": "Polish potato pancakes.",
+            "price": 5.99
+        },
+        {
+            "name": "Buraczki",
+            "description": "Polish-style pickled beets.",
+            "price": 3.99
+        },
+        {
+            "name": "Zupa ogórkowa",
+            "description": "A traditional Polish soup made with pickled cucumbers and vegetables.",
+            "price": 6.99
+        }
+        ]
+    },
+    {
+        "name": "Drinks",
+        "description" : "Quench your thirst with our refreshing assortment of Polish-inspired drinks. From classic favorites to unique concoctions, our beverage menu offers something for everyone. Whether you're seeking a revitalizing non-alcoholic beverage or a spirited libation, our drinks menu is designed to complement your meal and elevate your dining experience.",
+        "items": [
+        {
+            "name": "Piwo",
+            "description": "Polish beer.",
+            "price": 4.99
+        },
+        {
+            "name": "Wódka",
+            "description": "Polish vodka.",
+            "price": 6.99
+        },
+        {
+            "name": "Kompot",
+            "description": "A sweet drink made from boiled fruit.",
+            "price": 2.99
+        },
+        {
+            "name": "Herbata",
+            "description": "Polish tea.",
+            "price": 1.99
+        },
+        {
+            "name": "Kawa",
+            "description": "Polish coffee.",
+            "price": 2.99
+        }
+        ]
+    },
+    {
+        "name": "Desserts",
+        "description" : "Satisfy your sweet tooth with our irresistible selection of Polish desserts. Our dessert menu offers a symphony of flavors and textures, combining traditional recipes with modern twists. Each dessert is a work of art, crafted with passion and presented with elegance. Treat yourself to a divine ending to your meal and experience the sweet delights of Polish culinary craftsmanship.",
+        "items": [
+        {
+            "name": "Sernik",
+            "description": "Polish-style cheesecake.",
+            "price": 4.99
+        },
+        {
+            "name": "Pączki",
+            "description": "Two Polish doughnuts filled with various sweet fillings, such as jam, custard, or chocolate.",
+            "price": 2.99
+        },
+        {
+            "name": "Makowiec",
+            "description": "Traditional Polish poppy seed roll. It consists of a sweet yeast dough filled with a mixture of ground poppy seeds, honey, and chopped nuts.",
+            "price": 5.99
+        },
+        {
+            "name": "Kremówka",
+            "description": "Polish dessert made of layers of crispy puff pastry filled with a rich vanilla or custard cream.",
+            "price": 4.99
+        }
+        ]
+    }
+    ]
+}
+  
