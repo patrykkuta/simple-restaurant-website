@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable: no">
     <link rel="stylesheet" href="../css/stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <title>Kuchnia Polska | Traditional Polish Cuisine</title>
 </head>
 <body>
-    <?php include 'html/menu.html';?>
-    <?php include 'html/sidebar-menu.html'; ?>
+    <div id="menu"></div>
+    <div id="sidebar-menu-container"></div>
 
     <div id="body-container">
         <div id="image-container" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/index-image.jpg'); background-position:center; background-repeat: no-repeat; background-size: cover; ">
             <div class="centered">    
                 <p>WELCOME</p>
-                <a href="html/our-menu.php">EXPLORE MENU</a>
+                <a href="html/our-menu.html">EXPLORE MENU</a>
             </div>
         </div>
 
@@ -38,8 +40,15 @@
 
     </div>
 
-    <?php include 'html/footer.html';?>
+    <div id="footer"></div>
 
-    <script src="../js/navigation.js"></script>
+    <script>
+        $(function() {
+            $("#menu").load("html/menu.html");
+            $("#sidebar-menu-container").load("html/sidebar-menu.html");
+            $("#footer").load("html/footer.html");
+        });
+    </script>
+    <script src="js/navigation.js"></script>
 </body>
 </html>

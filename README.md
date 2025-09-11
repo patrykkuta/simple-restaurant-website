@@ -17,7 +17,7 @@
 
 # 📚 About
 
-A simple, multi-page restaurant website built using HTML, CSS, JavaScript, and PHP. This was a **basic project** developed during my **first year** of studying Software Engineering, focused on foundational web development skills.
+A simple, multi-page restaurant website built using HTML, CSS and JavaScript. This was a **basic project** developed during my **first year** of studying Software Engineering, focused on foundational web development skills.
 
 This website simulates a restaurant's online presence, showcasing menu items and a company history section. It was designed using a modular approach, with reusable components such as a shared navigation bar, footer, and sidebar to ensure consistency across pages and make future updates easier to manage.
 
@@ -26,13 +26,12 @@ This website simulates a restaurant's online presence, showcasing menu items and
 - **HTML5** – Structure of each page
 - **CSS3** – Custom styling across the site
 - **JavaScript** – Front-end interactions (navigation, loading products)
-- **PHP** – Page templating and partials
 - **JSON** – Used to load product data dynamically
 
 # 📁 Project Structure
 
 ```
-index.php
+index.html
 |- css/
 |- js/
 |- html/
@@ -41,15 +40,15 @@ index.php
 |  |- fonts/
 ```
 
-- `index.php`: The main landing page
+- `index.html`: The main landing page
 - `css/`: The CSS stylesheets
-- `html/`: Contains HTML/PHP partials (e.g., footer, menu)
+- `html/`: Contains HTML partials (e.g., footer, menu)
 - `js/`: Scripts for product loading and navigation
 - `assets/`: Fonts, images, and JSON data
 
 # 🧠 What I Learned
 
-- Creating modular HTML/PHP structures
+- Creating modular HTML structures
 - Loading and displaying data using JavaScript
 - Organizing web assets efficiently
 - Combining static and server-side content
